@@ -2,8 +2,8 @@
  * @file demo_std_tie.cpp
  * @author wangguibao(wang_guibao@163.com)
  * @date 2022/09/22 12:31:57
- * @brief
- *
+ * @brief std::tie() demo.
+ * Need --std=c++11
  **/
 #include <set>
 #include <tuple>
