@@ -24,7 +24,8 @@ int main() {
         std::cout << "Insert into std::set first time fail" << std::endl;
     }
 
-    std::tie(iter, inserted) = set_of_int.insert(1);
+    // Here use std::ignore
+    std::tie(std::ignore, inserted) = set_of_int.insert(1);
     if (inserted) {
         std::cout << "Insert the same value second time success" << std::endl;
     } else {
