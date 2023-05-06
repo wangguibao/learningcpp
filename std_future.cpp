@@ -1,6 +1,6 @@
 /*
  * std_future.cpp
- * Demonstrates the std::future usage
+ * Demonstrates the std::future and std::async() usage
  */
 #include <future>
 #include <iostream>
