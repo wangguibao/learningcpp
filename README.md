@@ -4,6 +4,7 @@ Notes and code pieces developed in the process of learning modern C++ language
 File name | Description
 ----------|------------
 atomic_compare_exchange_weak.cpp | Implements a lock-free stack using std::atomic<T>::compare_exchange_weak
+atomic_flag_test_and_set.cpp | Implements a spinlock using std::atomic_flag::test_and_set
 demo_std_tie.cpp | Demo std::tie() usage
 implementing_range_based_for.cpp | Implementing C++ ranged for for a user defined type. From the book Modern C++ Programming Cookbook, 2e, by Marius Bancila
 memory_order.c | A demo that shows that unrelated instructions can be reordered, causing surprising results
