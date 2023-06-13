@@ -14,3 +14,4 @@ std_future.cpp | Demonstrates std::future and std::async()
 std_lock.cpp | Demonstrates the use of std::lock() which locks a set of locks simutaneously without deadlocking
 std_promise.cpp | Demonstrates the std::promise usage
 thread_safe_resource_initialization.cpp | Demonstrates a safe way of initializing shared resource, by making sure the initialization is called only once
+unordered_map.cpp | Demo std::unordered_map usage
