@@ -7,6 +7,7 @@ atomic_compare_exchange_weak.cpp | Implements a lock-free stack using std::atomi
 atomic_flag_test_and_set.cpp | Implements a spinlock using std::atomic_flag::test_and_set
 demo_std_tie.cpp | Demo std::tie() usage
 implementing_range_based_for.cpp | Implementing C++ ranged for for a user defined type. From the book Modern C++ Programming Cookbook, 2e, by Marius Bancila
+mem_fn.cpp | Demonstrates std::mem_fn, wrap a pointer to class member which can then be called as a function
 memory_order.c | A demo that shows that unrelated instructions can be reordered, causing surprising results
 rwlock.cpp | Use std::shared_mutex, std::shared_lock and std::lock_guard to simulate the behavior of rwlock
 std_bind.cpp | Demo std::bind() usage
