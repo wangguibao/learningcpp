@@ -15,15 +15,18 @@ public:
     int add(int x) {return data + x;};
     int add(int x, int y) {return x + y;};
 
-private:
+public:
     int data;
 };
 
 int main() {
     Foo foo;
 
-    auto data = std::mem_fn(&Foo::get_data);
-    std::cout << "get_data: " << data(foo) << std::endl;
+    auto data = std::mem_fn(&Foo::data);
+    std::cout << "data: " << data(foo) << std::endl;
+
+    auto get_data = std::mem_fn(&Foo::get_data);
+    std::cout << "get_data: " << get_data(foo) << std::endl;
 
     auto add1 = std::mem_fn<int(int), Foo>(&Foo::add);
     std::cout << "add(5): " << add1(foo, 5) << std::endl;
